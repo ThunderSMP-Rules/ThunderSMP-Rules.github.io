@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThunderSMP - Events</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="lightning"></div>
+    <header>
+        <nav>
+            <div class="menu-icon">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>ThunderSMP Events</h1>
+        <div id="events-container"></div>
+        <div id="event-form" style="display: none;">
+            <h2>Post Event</h2>
+            <form id="post-event-form">
+                <input type="text" id="event-title" placeholder="Event Title" required>
+                <input type="datetime-local" id="event-date" required>
+                <textarea id="event-description" placeholder="Event Description" required></textarea>
+                <button type="submit">Post Event</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 ThunderSMP. All rights reserved.</p>
+    </footer>
+    <script src="js/events.js"></script>
+</body>
+</html>
